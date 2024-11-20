@@ -1,0 +1,217 @@
+
+
+ .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.wrapper a {
+    text-decoration: none;
+}
+
+.iconbox {
+    background:#4d1313;
+    height: 100px;
+    width: auto;
+    border-radius: 5px;
+   
+}
+
+.icon {
+    width: 2.625rem;
+    height: 2.625rem;
+    top: 2rem;
+    background-color: #f1dcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    --color:#D62976;
+}
+
+
+
+.icon:hover > i {
+    transform: scale(1.2);
+    color: #f1f1f1;
+}
+
+
+.icon:before {
+    background: var(--color);
+    content: "";
+    position: absolute;
+    width: 130%;
+    height: 130%;
+    left: -110%;
+    top: 80%;
+    transform: rotate(45deg);
+}
+
+.icon:hover:before {
+    animation: slide 0.7s forwards;
+}
+
+
+.icon2 {
+    width: 2.625rem;
+    height: 2.625rem;
+    top: 2rem;
+    background-color: #f1dcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    --color: #0077B5;
+  
+}
+
+
+
+.icon2:hover > i {
+    transform: scale(1.2);
+    color: #f1f1f1;
+}
+
+.icon2:before {
+    background: var(--color);
+    content: "";
+    position: absolute;
+    width: 130%;
+    height: 130%;
+    left: -110%;
+    top: 80%;
+    transform: rotate(45deg);
+}
+
+.icon2:hover:before {
+    animation: slide 0.7s forwards;
+}
+
+.icon3 {
+    width: 2.625rem;
+    height: 2.625rem;
+    top: 2rem;
+    background-color: #f1dcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    --color:#FF0000;
+}
+
+
+.icon3:hover > i {
+    transform: scale(1.2);
+    color: #f1f1f1;
+}
+
+
+.icon3:before {
+    background: var(--color);
+    content: "";
+    position: absolute;
+    width: 130%;
+    height: 130%;
+    left: -110%;
+    top: 80%;
+    transform: rotate(45deg);
+}
+
+.icon3:hover:before {
+    animation: slide 0.7s forwards;
+}
+
+.icon4 {
+    width: 2.625rem;
+    height: 2.625rem;
+    top: 2rem;
+    background-color: #f1dcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    --color:#1DA1F2;
+}
+
+
+
+.icon4:hover > i {
+    transform: scale(1.2);
+    color: #f1f1f1;
+}
+
+
+.icon4:before {
+    background: var(--color);
+    content: "";
+    position: absolute;
+    width: 130%;
+    height: 130%;
+    left: -110%;
+    top: 80%;
+    transform: rotate(45deg);
+}
+
+.icon4:hover:before {
+    animation: slide 0.7s forwards;
+}
+
+.icon5 {
+    width: 2.625rem;
+    height: 2.625rem;
+    top: 2rem;
+    background-color: #f1dcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    --color:#2C2F33;
+}
+
+
+
+.icon5:hover > i {
+    transform: scale(1.2);
+    color: #f1f1f1;
+}
+
+
+.icon5:before {
+    background: var(--color);
+    content: "";
+    position: absolute;
+    width: 130%;
+    height: 130%;
+    left: -110%;
+    top: 80%;
+    transform: rotate(45deg);
+}
+
+.icon5:hover:before {
+    animation: slide 0.7s forwards;
+}
+
+@keyframes slide {
+    50% {
+        left: 10%;
+        top: -40%;
+    }
+    100% {
+        left: -15%;
+        top: -10%;
+    }
+}
